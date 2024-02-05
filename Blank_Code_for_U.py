@@ -28,11 +28,16 @@ spkrenable = digitalio.DigitalInOut(board.SPEAKER_ENABLE)
 spkrenable.direction = digitalio.Direction.OUTPUT
 spkrenable.value = True
 
+# Bluetooth
 ble = BLERadio()
 uart_service = UARTService()
 advertisement = ProvideServicesAdvertisement(uart_service)
+
+# LED setup, set the LED variable to you pixle count and the board pinout to your output(Default Pin A6)
 LED = 204
 lights = neopixel.NeoPixel(board.A6, LED, brightness=0.4, auto_write=False)
+
+#Misc Vars
 frame = 0
 on = []
 setting = "NA"
