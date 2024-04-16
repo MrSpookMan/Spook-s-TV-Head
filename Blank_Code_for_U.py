@@ -69,7 +69,7 @@ def write():
 # "F1"-"Finf" = what pixels will change each frame of animation
 # "Frame_cnt" = amt of frames in animation
 # "Rate" = how long will the animation wait between loops(make zero for continouous ani)
-# "Timing" = time between each frame, make sure firs number is always 0
+# "Timing" = time between each frame, make sure first number is always 0
 Off = {
    "F0" : (),
    "F1" : (),
