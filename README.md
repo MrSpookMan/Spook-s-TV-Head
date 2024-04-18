@@ -29,6 +29,7 @@ xx0
 0xx
 
 0xx
+
 , id need to tell the program to toggle the middle and bottom right lights as well as the left middle and left bottom lights, making the instructions in the library look like this,
 
 xxx
