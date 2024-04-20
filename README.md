@@ -6,12 +6,13 @@ DISCLAIMER: I CANT GAURENTEE ANY OF MY CODE WILL WORK IN YOUR CASE, PLS TAKE CAU
 TO RUN THIS CODE, YOU MUST HAVE A BOARD THAT RUNS CIRCUT PYTHON, PREFERABLY CIRCUT PLAYGROUND BLUEFRUIT
 
 How to use:
-1. Download both the Blank and extension repository(lib) and move the repo to your board files
-2. open the Blank file in a py editor such as MuEditor and open the google sheet linked above and follow the instructions inside
-3. Once done, save code to your board
-4. Download bluefruit connect and connect to the board
-5. go to control and go to buttons or color wheel
-6. enjoy :P
+1. Download both the Blank and extension repository(lib)
+2. Unzip lib and move the repo to your board files
+3. open the Blank file in a py editor such as MuEditor and open the google sheet linked above and follow the instructions inside
+4. Once done, save code to your board
+5. Download bluefruit connect and connect to the board
+6. go to control and go to buttons or color wheel
+7. enjoy :P
 
 To explain kinda what the program dose, the code takes the frame data you put into each library as instructions. Think of the program as a pegboard opperator(or stanley from the stanley parable loll) and each individual light as an on/off switch. Each time the program decides when the next frame comes(depending on the times you insert), the program will receive specific lights and it will swap their state from on to off.
 for example if i had a 3x3 grid and wanted to turn this pattern,
